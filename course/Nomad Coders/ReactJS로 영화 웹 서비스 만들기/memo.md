@@ -23,7 +23,7 @@ npx create-react-app my-app
 
 # #2 JSX & PROPS
 
-# #2.0 Creating your first React Component
+## #2.0 Creating your first React Component
 react 는 component 와 함께 동작
 component 는 data 를 보여줌
 component 는 HTML 을 반환하는 함수
@@ -34,6 +34,11 @@ jsx 는 react 에 특화된 개념 중 하나
 Potato.js 라는 component 를 만들고 App.js 로 연결
 여러 개의 component 도 가능하다고 댓글에 있음
 
+## #2.1 Reusable Components with JSX + Props
+jsx 로 component 에 정보를 보낼 수 있다
+react 는 재사용 가능한 component 를 만들 수 있음
+예시로 App.js 의 Food component 에 prop(property) fav="kimchi" 를 object 로 전달
+component 는 대문자로 시작해야 함
 
 # #3 STATE
 
