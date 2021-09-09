@@ -45,6 +45,9 @@ map : array의 item에서 func 를 실행
 func 의 결과를 array 로 전달
 map 를 통해 object 처리
 
+## #2.4 Protection with PropTypes
+prop-type 전달 받은 props 가 옳바른지 확인
+
 # #3 STATE
 
 # #4 MAKING THE MOVIE APP
