@@ -11,24 +11,32 @@ function Food({name, image}) {
 
 const foodILike = [
   {
-  name: "A",
-  image: "a image",
+    id:1,
+    name: "A",
+    image: "a image",
   },
   {
+    id:2,
     name: "B",
     image: "b image",
   },
   {
+    id:3,
     name: "C",
     image: "c image",
   },
 ]
 
+function randerFood(dish) {
+  // console.log(dish);
+  return <Food name={dish.name} image={dish.image}/>
+}
+
 function App() {
   return (
     <div>
       {foodILike.map(dish => (
-       <Food name={dish.name} image={dish.image}/>
+        <Food key={dish.id} name={dish.name} image={dish.image} />
       ))}
     </div>
   );
