@@ -40,6 +40,11 @@ react 는 재사용 가능한 component 를 만들 수 있음
 예시로 App.js 의 Food component 에 prop(property) fav="kimchi" 를 object 로 전달
 component 는 대문자로 시작해야 함
 
+## #2.2 Dynamic Component Generation
+map : array의 item에서 func 를 실행
+func 의 결과를 array 로 전달
+map 를 통해 object 처리
+
 # #3 STATE
 
 # #4 MAKING THE MOVIE APP
