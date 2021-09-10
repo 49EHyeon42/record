@@ -20,8 +20,21 @@ class App extends React.Component {
     // react에서 외부의 상태에 의존하지 않는 가장 좋은 방법
     this.setState(current => ({ count: current.count - 1}));
   };
+
+  componentDidMount() {
+    console.log("Component rendering");
+  }
+  componentDidUpdate() {
+    console.log("I just updated");
+  }
+
+  componentWillUnmount() {
+    // 컴포넌트가 떠날 때 호출
+    console.log("Goodbye, cruel world");
+  }
   
   render() {
+    console.log("I'm redering");
     return (
       <div>
         <h1>The number is: {this.state.count}</h1>
